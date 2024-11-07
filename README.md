@@ -17,7 +17,7 @@
 
                                         
                                                                                    
-Created by : Opô (Brioche)
+### Created by : Opô (Brioche)
 The **oPo Phishing Tool** is a tool designed to copy websites, including their HTML, CSS, and JavaScript files, for 
 educational and testing purposes. It allows users to download websites and save them locally, making it easier 
 to analyze or repurpose the content.
@@ -41,7 +41,7 @@ to analyze or repurpose the content.
                                                                                    
 Edit line 9 in the `phishing.py` file to specify the path where you want the downloaded websites to be saved. Replace the current path with the location of your desired folder:
 
-    ```python base_folder = r"C:\path\to\your\folder"
+    python base_folder = r"C:\path\to\your\folder"
     
 ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
@@ -77,10 +77,10 @@ Edit line 9 in the `phishing.py` file to specify the path where you want the dow
         |______/|__/  |__/|_______/    \___/   \_______/|__/|__/ \_______/   \___/  |__/ \______/ |__/  |__/
 
 
-1. Clone the repository or download the ZIP file.
-2. Navigate to the project folder in your terminal or command prompt.
-3. Install the necessary dependencies by running:
-    ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
+### 1. Clone the repository or download the ZIP file.
+### 2. Navigate to the project folder in your terminal or command prompt.
+### 3. Install the necessary dependencies by running:
+▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
          /$$$$$$$                                /$$                                                         /$$             
         | $$__  $$                              |__/                                                        | $$             
@@ -94,8 +94,9 @@ Edit line 9 in the `phishing.py` file to specify the path where you want the dow
                                       | $$                                                                                       
                                       |__/                                                                                       
 
-
-    ```bash pip install -r requirements.txt```
+### For Install
+    
+    bash pip install -r requirements.txt
     
 - Python 3.6+
 - `requests`
