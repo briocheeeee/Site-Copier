@@ -1,37 +1,48 @@
-
+# oPo Phishing Tool
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄                                    
                                         
 
-                       /$$$$$$$          
-                      | $$__  $$         
-              /$$$$$$ | $$  \ $$ /$$$$$$ 
-             /$$__  $$| $$$$$$$//$$__  $$
-            | $$  \ $$| $$____/| $$  \ $$
-            | $$  | $$| $$     | $$  | $$
-            |  $$$$$$/| $$     |  $$$$$$/
-             \______/ |__/      \______/ 
+
+             /$$$$$$$                                          /$$             /$$     /$$                    
+            | $$__  $$                                        |__/            | $$    |__/                    
+            | $$  \ $$  /$$$$$$   /$$$$$$$  /$$$$$$$  /$$$$$$  /$$  /$$$$$$  /$$$$$$   /$$  /$$$$$$  /$$$$$$$ 
+            | $$  | $$ /$$__  $$ /$$_____/ /$$_____/ /$$__  $$| $$ /$$__  $$|_  $$_/  | $$ /$$__  $$| $$__  $$
+            | $$  | $$| $$$$$$$$|  $$$$$$ | $$      | $$  \__/| $$| $$  \ $$  | $$    | $$| $$  \ $$| $$  \ $$
+            | $$  | $$| $$_____/ \____  $$| $$      | $$      | $$| $$  | $$  | $$ /$$| $$| $$  | $$| $$  | $$
+            | $$$$$$$/|  $$$$$$$ /$$$$$$$/|  $$$$$$$| $$      | $$| $$$$$$$/  |  $$$$/| $$|  $$$$$$/| $$  | $$
+            |_______/  \_______/|_______/  \_______/|__/      |__/| $$____/    \___/  |__/ \______/ |__/  |__/
+                                                                  | $$                                        
+                                                                  | $$                                        
+                                                                  |__/                                        
+
                                         
                                                                                    
             Created by : Opô (Brioche)
-            Usage   : This tool is designed to copy websites by fetching their resources and saving them locally. It simulates the structure of the original site, including HTML, CSS, and JavaScript, for educational purposes or local testing.
+            The **oPo Phishing Tool** is a tool designed to copy websites, including their HTML, CSS, and JavaScript files, for 
+            educational and testing purposes. It allows users to download websites and save them locally, making it easier 
+            to analyze or repurpose the content.
+
     
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
 
-              /$$$$$$              /$$                        
-             /$$__  $$            | $$                        
-            | $$  \__/  /$$$$$$  /$$$$$$   /$$   /$$  /$$$$$$ 
-            |  $$$$$$  /$$__  $$|_  $$_/  | $$  | $$ /$$__  $$
-             \____  $$| $$$$$$$$  | $$    | $$  | $$| $$  \ $$
-             /$$  \ $$| $$_____/  | $$ /$$| $$  | $$| $$  | $$
-            |  $$$$$$/|  $$$$$$$  |  $$$$/|  $$$$$$/| $$$$$$$/
-             \______/  \_______/   \___/   \______/ | $$____/ 
-                                        | $$      
-                                        | $$      
-                                        |__/      
+             /$$   /$$                                        
+            | $$  | $$                                        
+            | $$  | $$  /$$$$$$$  /$$$$$$   /$$$$$$   /$$$$$$ 
+            | $$  | $$ /$$_____/ |____  $$ /$$__  $$ /$$__  $$
+            | $$  | $$|  $$$$$$   /$$$$$$$| $$  \ $$| $$$$$$$$
+            | $$  | $$ \____  $$ /$$__  $$| $$  | $$| $$_____/
+            |  $$$$$$/ /$$$$$$$/|  $$$$$$$|  $$$$$$$|  $$$$$$$
+             \______/ |_______/  \_______/ \____  $$ \_______/
+                                           /$$  \ $$          
+                                          |  $$$$$$/          
+                                           \______/           
                                         
                                                                                    
-            Change line 9 "base_folder = r"C:\Users\Nut\Desktop\Tool\Phishing\oPo Phishing Tool\Phishing Pages" to your path to the copied pages
+            Edit line 9 in the `phishing.py` file to specify the path where you want the downloaded websites to be saved. Replace the current path with the location of your desired folder:
+
+            ```python
+            base_folder = r"C:\path\to\your\folder"
     
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
@@ -48,10 +59,10 @@
 
                                         
                                                                                    
-            - Downloads HTML, CSS, JavaScript, and other assets.
-            - Supports HTTPS and HTTP URLs.
-            - Saves assets into a local folder structure.
-            - Works for most sites (except those with Cloudflare verification like doxbin, cracked.io, etc.).
+            - Download websites via HTTP/HTTPS URLs.
+            - Copy HTML, CSS, and JavaScript files.
+            - Creates a local folder structure for saved websites.
+            - No support for sites with Cloudflare protection (e.g., Doxbin, Cracked.io, etc.).
 
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
@@ -67,10 +78,9 @@
             |______/|__/  |__/|_______/    \___/   \_______/|__/|__/ \_______/   \___/  |__/ \______/ |__/  |__/
 
 
-
-            ```git clone https://github.com/Briocheeeee/Site-Copier.git
-            cd Phishing-Tool```
-
+            1. Clone the repository or download the ZIP file.
+            2. Navigate to the project folder in your terminal or command prompt.
+            3. Install the necessary dependencies by running:
     ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
 
              /$$$$$$$                                /$$                                                         /$$             
@@ -86,9 +96,11 @@
                                       |__/                                                                                       
 
 
-
-            - requests
-            - beautifulsoup4
-            - colorama
-
-            ```pip install -r requirements.txt```
+            ```bash
+            pip install -r requirements.txt
+            ```
+    
+            - Python 3.6+
+            - `requests`
+            - `beautifulsoup4`
+            - `colorama`
